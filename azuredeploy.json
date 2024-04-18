@@ -173,7 +173,8 @@
           "Standard_D5_v2",
           "Standard_D14_v2",
           "Standard_A4",
-          "standard_b2s"
+          "standard_b2s",
+          "Standard_b1s"
        ],
        "metadata": {
           "description": "Azure VM size for VM-Series"
