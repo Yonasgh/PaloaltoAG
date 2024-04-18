@@ -136,7 +136,7 @@
        "allowedValues": [
           "Standard_A1",
           "Standard_D1",
-          "Standard_D1_v2"
+          "Standard_D1_v2",
           "standard_b1s"
        ],
        "metadata": {
