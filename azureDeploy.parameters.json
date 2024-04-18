@@ -12,13 +12,13 @@
       "value": "existing"
     },
     "username": {
-      "value": "DEFAULT-USER"
+      "value": "azureuser"
     },
     "password": {
-      "value": "DEFAULT-PASSWORD"
+      "value": "Fiseh@Ghebre!974"
     },
     "storageAccountName": {
-      "value": "DEFAULT-STORAGE"
+      "value": "yonpaloaltostor"
     },
     "storageAccountNewOrExisting": {
       "value": "existing"
