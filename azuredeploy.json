@@ -137,12 +137,12 @@
           "Standard_A1",
           "Standard_D1",
           "Standard_D1_v2",
-          "standard_b1s"
+          "Standard_b1s"
        ],
        "metadata": {
           "description": "Azure VM size for backend VMs.  Not all sizes are available in all regions."
        },
-       "defaultValue": "standard_b1s"
+       "defaultValue": "Standard_b1s"
     },
     "firewallModel": {
        "type": "string",
