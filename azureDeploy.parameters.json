@@ -9,7 +9,7 @@
       "value": "192.168.0.0/16"
     },
     "virtualNetworkNewOrExisting": {
-      "value": "existing"
+      "value": "new"
     },
     "username": {
       "value": "azureuser"
@@ -21,7 +21,7 @@
       "value": "yonpaloaltostor"
     },
     "storageAccountNewOrExisting": {
-      "value": "existing"
+      "value": "new"
     }
   }
 }
