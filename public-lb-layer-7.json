@@ -31,6 +31,7 @@
         "Standard_Large",
         "Standard_v2"
       ],
+      "defaultValue": "Standard_v2",
       "metadata": {
         "description": "Sku Name"
       }
