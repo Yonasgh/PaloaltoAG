@@ -31,7 +31,6 @@
         "Standard_Large",
         "Standard_v2"
       ],
-      "defaultValue": "Standard_v2",
       "metadata": {
         "description": "Sku Name"
       }
@@ -93,8 +92,7 @@
       ],
       "properties": {
         "sku": {
-          "name": "[parameters('skuName')]",
-          "tier": "Standard_v2",
+          "name": "[parameters('skuName')]",          
           "capacity": "[parameters('capacity')]"
         },
         "gatewayIPConfigurations": [
