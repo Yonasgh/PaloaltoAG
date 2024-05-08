@@ -23,6 +23,9 @@
     "virtualNetworkExistingRGName": {
       "type": "string"
     },
+    "MgmtPublicIPAddressName": {
+      "type": "string"
+    },
     "baseUrl": {
       "type": "string"
     }
@@ -32,6 +35,7 @@
       "subnet0Ref": "[concat(variables('vnetID'),'/subnets/',parameters('subnet0Name'))]",
       "subnet1Ref": "[concat(variables('vnetID'),'/subnets/',parameters('subnet1Name'))]",
       "subnet2Ref": "[concat(variables('vnetID'),'/subnets/',parameters('subnet2Name'))]",
+      "mgmtpip": "[concat('mgmtIP-', parameters('MgmtPublicIPAddressName'))]",
       "setupUntrustNICURL": "[concat(parameters('baseUrl'),'/setupNICS-untrust.json')]"
   },
   "resources": [
@@ -45,12 +49,15 @@
           {
             "name": "ipconfig-mgmt",
             "properties": {
-              "privateIPAllocationMethod": "Dynamic"
+              "privateIPAllocationMethod": "Dynamic",
+              "publicIPAddress": {
+                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('mgmtpip'))]"
               },
               "subnet": {
                 "id": "[variables('subnet0Ref')]"
               }
-            }          
+            }
+          }
         ]
       }
     },
