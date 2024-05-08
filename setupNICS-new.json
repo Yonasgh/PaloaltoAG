@@ -53,8 +53,7 @@
               "subnet": {
                 "id": "[variables('subnet0Ref')]"
               }
-            }
-          }
+            }          
         ]
       }
     },
