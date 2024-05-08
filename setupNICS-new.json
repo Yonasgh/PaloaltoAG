@@ -23,9 +23,6 @@
     "virtualNetworkExistingRGName": {
       "type": "string"
     },
-    "MgmtPublicIPAddressName": {
-      "type": "string"
-    },
     "baseUrl": {
       "type": "string"
     }
